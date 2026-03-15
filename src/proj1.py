@@ -1,4 +1,4 @@
-#Ioannis Rafail Bartzialis 
+# Bartzialis 
 
 import pygame
 import math
