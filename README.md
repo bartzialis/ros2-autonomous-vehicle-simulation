@@ -49,3 +49,32 @@ The simulation publishes vehicle state data and receives control commands throug
 - Linux
 
 ## Project Structure
+src/
+  proj1.py
+  teleop.py
+  subscriber.py
+  extrafunctions.py
+
+launch/
+  project.sh
+
+urdf/
+  urdf.xml
+
+docs/
+  Report.pdf
+
+## Visualization
+
+Vehicle state is visualized using:
+
+- RViz2
+- Foxglove Studio
+
+The system publishes Odometry, PoseStamped, Path and PointCloud2 messages for visualization and debugging.
+
+## Use Case
+
+This project was developed as part of the **Centaurus Racing Team Driverless Division** at the University of Thessaly.
+
+The goal is to provide a simulation environment for testing autonomous vehicle algorithms and ROS2-based robotic systems.
