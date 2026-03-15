@@ -78,3 +78,9 @@ The system publishes Odometry, PoseStamped, Path and PointCloud2 messages for vi
 This project was developed as part of the **Centaurus Racing Team Driverless Division** at the University of Thessaly.
 
 The goal is to provide a simulation environment for testing autonomous vehicle algorithms and ROS2-based robotic systems.
+
+## Running the Simulation
+
+```bash
+cd launch
+bash project.sh
